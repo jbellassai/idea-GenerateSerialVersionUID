@@ -27,7 +27,7 @@
 	    </p>
       ]]>
 	</description>
-	<version>3.0.2</version>
+	<version>3.0.2-patch1</version>
 	<vendor email="descout underscore olivier at yahoo dot fr">Olivier Descout</vendor>
 	<idea-version since-build="93.13"/>
     <depends>com.intellij.modules.lang</depends>
@@ -35,6 +35,7 @@
 
 	<change-notes>
       <![CDATA[
+        <p>3.0.2-patch1 - Fixed support for Groovy classes (IncorrectOperationException).<br>
         <p>3.0.2 - Added support for Groovy classes.<br>
                    Fixed the erratic field/method sorting while computing the UID.<br>
         <p>3.0.1 - Added ability to generate serialVersionUID field for serializable inner classes.<br>
