@@ -62,7 +62,7 @@ public class SerialVersionUIDBuilder extends JavaRecursiveElementVisitor {
     @SuppressWarnings("UnusedDeclaration")
     enum Language {
         JAVA  ("java",   "private static final long serialVersionUID = {0}L;"),
-        GROOVY("groovy", "private static final serialVersionUID = {0}L")/*,
+        GROOVY("groovy", "private static final long serialVersionUID = {0}L")/*,
         SCALA ("scala",  "private val serialVersionUID = {0}L")*/;
 
         private String        fileExtension;
